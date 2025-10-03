@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Challenge 9 - Slicing Figma design into code with Next JS
 
-## Getting Started
+# Description
 
-First, run the development server:
+In this assignment, you'll translate a provided Figma design into a functional webpage using Next JS and Tailwind CSS, then deploy it using vercel. After you deploy the app, update the readme below.
+Hosted web URL: ....
 
-```bash
+You'll be provided with a basic project setup, and your task will be to implement the design by writing components that reusable and utilizing Tailwind's classes.
+
+The design for this assignment is located at the following Figma link:
+
+[Figma Design Link](https://www.figma.com/design/PjR3Adxi8eZbS2cmdPuG52/Front-End-Developer-Test---Movie-Explorer-App?node-id=8411-143671&p=f)
+
+The goal is to assess your ability to:
+
+- Interpret a design from Figma.
+- Create a reusable component
+- Structure a webpage with Next JS.
+- Apply styles using Tailwind CSS.
+- Create a responsive layout.
+- Routing and rendering method
+- Next Optimization
+- Deployment
+
+# Assignment Objectives
+
+- Figma to HTML: Accurately translate the Figma design into HTML. Create the necessary HTML elements to structure the page (divs, sections, headers, etc.).
+- Tailwind CSS Styling: Use Tailwind CSS classes to style the HTML elements. Pay close attention to:
+- Layout (Flexbox, Grid).
+- Spacing (padding, margin).
+- Typography (font sizes, weights, colors).
+- Colors and Backgrounds.
+- esponsive design (using Tailwind's responsive prefixes, e.g., md:, lg:).
+- Responsive Design: Ensure your implementation is responsive across different screen sizes, as defined in the Figma design. Use Tailwind's responsive modifiers.
+- Adherence to Design: Your final webpage should closely match the visual design provided in the Figma file.
+- Deploy your next app
+
+# Getting Started
+
+for this project first, then to run the app, run
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+on terminal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Study the Figma Design: Open the Figma link and thoroughly examine the design. Understand the layout, spacing, colors, typography, and responsive behavior.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+HTML Structure: Open the public/index.html file. Begin by structuring the page with HTML elements that mirror the design.
 
-## Learn More
+Tailwind CSS: Use Tailwind CSS classes directly within your HTML elements to apply styles. For example:
 
-To learn more about Next.js, take a look at the following resources:
+<div class="flex justify-center items-center">...</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h1 class="text-3xl font-bold text-blue-600">...</h1>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Test in the Browser: Run npm run dev to see it on your browser
 
-## Deploy on Vercel
+Iterate: Continue to refine your HTML and Tailwind CSS until your webpage accurately matches the Figma design.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Important Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can modify the folder structure only on src and public folder, don't change anything related to project setup
+
+Tailwind CSS Documentation: Refer to the official Tailwind CSS documentation (https://tailwindcss.com/docs) for information on available classes and how to use them.
+
+Figma Inspection: Use the "Inspect" feature in Figma to get precise measurements, colors, and font styles from the design.
+
+# Evaluation System
+
+The evaluation for this assignment will be based on the following criteria:
+
+1.  **Basic concept and project structure:** How you understand the concept of next js and how you manage the project structure
+2.  **Routing and rendering method:** How you manage routing and rendering method (CSR, SSR, SSG)
+3.  **Next js advance features and optimizations:** How you use next js optimized tools like next/image etc.
+4.  **Deployment & best practice:** How you deploy your app on vercel
+
+---
+
+# How to Upload your Challenge
+
+Check this module: [click this](https://orchid-clematis-3e4.notion.site/Panduan-Penggunaan-Git-Untuk-Upload-Assignment-e2d80a19b3684f5d8f1a4209dcf85445?pvs=73)
+
+---
+
+🎉 Congratulations on working on this assignment! Utilize the _playground_ feature in Figma to help you understand how the design should look on various devices. Keep experimenting and don't hesitate to look for references if you encounter difficulties. You can definitely produce great work! 🚀 Keep up the spirit, cheers! 🎈
